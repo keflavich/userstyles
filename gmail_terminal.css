@@ -1,4 +1,4 @@
-@-moz-document url("Http://www.google.com/accounts") {
+@-moz-document url("http://www.google.com/accounts") {
 body,
 .footer,
 #footer,
@@ -300,6 +300,10 @@ div {color:#00ff00;}
 .gbqfb {background-color:#000000;
 background-image: none;}
 
+.gbqfif, .gbqfsf {
+    color: #00ff00 !important;
+}
+
 .zF {color: #FFFFFF !important;}
 span .zF {color: #FFFFFF;}
 div .yW {color:#AAAAAA;}
@@ -434,7 +438,7 @@ div.yX xY {color: #CCC;}
 
 
 .aoT {
-    color: #0B0;
+    color: #0B0 !important;
 }
 
 .aM .Am .Al {
@@ -445,7 +449,11 @@ div.yX xY {color: #CCC;}
     background: black !important;
 }
 
-.vT, .aQ2 { 
+.U5 {
+    background: black;
+}
+
+.vT, .aQ2, div.vT { 
     color: lime;
 }
 
@@ -477,7 +485,7 @@ background-color: #8EC783;
 }
 
 .vN {
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 img.mL:after {
@@ -510,7 +518,15 @@ img.mL:after {
 }
 
 .az9 {
-    color: green;
+    color: green !important;
+}
+
+.T-Jo-Jp .T-Jo-auh {
+    background-color: #888;
+}
+
+.GM .dL {
+    background-color: transparent;
 }
 
 body div#ds_inbox {

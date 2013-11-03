@@ -72,6 +72,7 @@
     .summary {color: #999 !important;}
     .entryTitle { color: #82BD1A !important;}    
     .entryBody {color: #ccc !important; margin-top: 5px !important;}
+    .entryBody td {max-width: none;}
     .action { color: #82BD1A !important; }
     .nonEmpty { color: #ccc !important; }
     .viewerIcon { background-color: #1a1a1a !important; color: #999 !important;}
@@ -502,5 +503,6 @@
         visibility: hidden;
     }
 
+    .websitecallforaction { display: none !important; }
        
 }
