@@ -439,6 +439,7 @@ div.yX xY {color: #CCC;}
 
 .aoT { /* The html stylesheet overrids this, so !important is required. */
     color: #11FF88 !important;
+    background-color: black;
 }
 .az9 { /* The html stylesheet overrids this, so !important is required. */
     color: #AAFF55 !important;
