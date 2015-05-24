@@ -34,6 +34,7 @@ a.d0 {
 
 .ip, .M9, .ej {background-color: #000000;}
 
+.ip* {background-color: #000000;}
 [class*='ip'] {background-color: #000000;}
 
 #gbx1, #gbx2, #gbx3, #gb, .gb, .gbw, .ip {background-color: #000000 !important;
@@ -56,6 +57,15 @@ img,
 img a,
 #img{position:relative !important;}
 
+.ip, .M9, .ej {background-color: #000000;}
+
+.ip* {background-color: #000000;}
+
+
+
+
+.TO, .n0, .aio { color: #22DD22;} 
+a.TO, a.n0, a.aio { color: #22DD22;}
 }
 
 @-moz-document domain("mail.google.com") {
@@ -186,7 +196,8 @@ background-image: none;
 
 .bz_mesfb,
  #bzrstrmgmt,
- #bzmsgarea{background-color:#000000 !important; background-image:none !important; color:#40FF40 !important;}
+ #bzmsgarea{background-color:#000000 !important; background-image:none
+ !important; color:#40FF40 !important;}
 BUTTON { border-color:#FF0000 !important;  
 background-color:#111111 !important;  
 color:#40FF40 !important }
@@ -254,7 +265,7 @@ border-color: #40FF40 !important;
 
 
 body div#ds_inbox img {
-    display: none !important;
+	display: none !important;
 }
 
 .gD {color: #BBBBBB !important;}
@@ -351,10 +362,15 @@ div.ya, div.yb, div.yc {color: #FFE16B; background-color: #666; }
     background: black;
 }
 
-.gbm, .gmbc.gbsb.gbsbis,.gbms,.gbmcc,.gbmcc.gbsbic,.gbmtc { background-color: #000000; }
+.gbm, .gmbc.gbsb.gbsbis,.gbms,.gbmcc,.gbmcc.gbsbic,.gbmtc { background-color:
+#000000 !important; }
+
+#gbz .gbto .gbts, #gbd .gbmt, #gbztms, .gbts.gbtsa {color:#00ff00 !important; background-color: #000000 !important; }
 
 
-.Cq,.Cq.hf,.J-M,.J-M.agd.jQjAxd, .gbm, .J-M.jQjAxd, .jQjAxd,.gmbc.gbsb.gbsbis,.gbms,.gbmcc,.gbmcc.gbsbic,.gbmtc { background-color: #000000 !important; color: #99FF00 !important;}
+.Cq,.Cq.hf,.J-M,.J-M.agd.jQjAxd, .gbm, .J-M.jQjAxd,
+.jQjAxd,.gmbc.gbsb.gbsbis,.gbms,.gbmcc,.gbmcc.gbsbic,.gbmtc { background-color:
+#000000 !important; color: #99FF00 !important;}
 
 li.gbtmc { background-color: #000000 !important; color: "lime" !important; }
 
@@ -418,13 +434,15 @@ a.gbqfbb:link {
 
 .zA,.yO,.zA.yO {background-color: black;}
 div.aC3 {background: none;}
+img.mL {background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/sprite_white.png) no-repeat 0 -20px; background-color:black;}
 
 span.nU {background-color: transparent;}
 .ag.ca {background-color:transparent;}
 .fw .J-Z {background-color: gray;}
 .ata-asJ {background-color: transparent;}
 
-td.anQ, td.gH, span.hP, span.g3, span.g2 {color: #40FF40;  background-color: #000;background-image: none;}
+td.anQ, td.gH, span.hP, span.g3, span.g2 {color: #40FF40;  background-color:
+#000;background-image: none;}
 span.mh {color:#5555FF;}
 
 textarea, textarea.dK,textarea.nr, textarea.dK nr { background-color:#000; color: #0F0; }
@@ -533,8 +551,8 @@ img.mL:after {
 body div#ds_inbox {
 background-image:url('data:image/png;base64,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');
         width: 143px !important;
-    height: 44px !important;
-    background-repeat: no-repeat !important;
+	height: 44px !important;
+	background-repeat: no-repeat !important;
 }
 
 .gb_p .gb_vb, .gb_p .gb_wb, .gb_q .gb_vb, .gb_q .gb_wb, .gb_p .gb_nb, .gb_q .gb_xb {
@@ -558,6 +576,9 @@ background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAAsCAMA
     color: #00DD55;
 }
 
+.jT, .ad3 { /* chat window */
+    color: #DDD;
+}
 
 /* div.Cp needs to have its mousedown removed */
 /* this is just a test */
