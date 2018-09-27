@@ -367,7 +367,7 @@ div.ya, div.yb, div.yc {color: #FFE16B; background-color: #666; }
 .jQjAxd,.gmbc.gbsb.gbsbis,.gbms,.gbmcc,.gbmcc.gbsbic,.gbmtc { background-color:
 #000000 !important; color: #99FF00 !important;}
 
-li.gbtmc { background-color: #000000 !important; color: "lime" !important; }
+li.gbtmc { background-color: #000000 !important; color: #00ff00 !important; }
 
 #gbz .gbto .gbts, #gbd .gbmt, #gbztms, .gbts.gbtsa, .gb, .l2,.l2.ov, .aeF,.aeG,.A0,.ar4.z,.ar4,.nH,.nH.nn,.Tm.aeJ,.Tm {
 color:#00ff00;
@@ -381,11 +381,14 @@ background-color: #000000; }
 background-image: none !important;}
 
 div.T-I.J-J5-Ji.T-I-Js-Gs.aap.T-I-awG.T-I-ax7.L3{
-background-color: 555;
+background-color: #050505;
 background-image: none;
 }
 
 
+div.brb { /* hide and remove autosuggestions */
+    display: none;
+}
 
 
 .mq {
