@@ -443,7 +443,12 @@ span.nU {background-color: transparent;}
 span.mh {color:#5555FF;}
 
 
-textarea, textarea.dK,textarea.nr, textarea.dK nr { background-color:#000; color: #0F0; }
+textarea, textarea.v0, textarea.dK,textarea.nr, textarea.dK nr {
+/* compose window: "To:" box */
+/* Have to important this because it's handwritten into the gmail doc */
+    background-color: black !important;
+    color: #22DD22 !important;
+}
 
 div.fY, div.v .fY, div.nH .fY {background-color: #000;}
 div.v .fZ, div.fZ {color:#CCC; background-color:#000;}
@@ -505,6 +510,10 @@ background-color: #8EC783;
 
 .vN {
     background-color: transparent !important;
+}
+
+.vN>.vT { /* e-mail addresses */
+    color: #22DD22;
 }
 
 img.mL:after {
@@ -577,10 +586,6 @@ background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAAsCAMA
     color: #DDD;
 }
 
-.v0 { /* compose window: "To:" box */
-    background-color: black;
-    color: #22DD22;
-}
 
 /* div.Cp needs to have its mousedown removed */
 /* this is just a test */
