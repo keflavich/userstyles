@@ -179,7 +179,7 @@ background-image: none;
 
 
 
-
+.Bu bAn { font-family: Helvetica; }
 
 
 
@@ -436,7 +436,7 @@ span.nU {background-color: transparent;}
 .fw .J-Z {background-color: gray;}
 .ata-asJ {background-color: transparent;}
 
-td.anQ, td.gH, span.hP, span.g3, span.g2 {color: #40FF40;  background-color:
+h2.hP, td.anQ, td.gH, span.hP, span.g3, span.g2 {color: #40FF40;  background-color:
 #000;background-image: none;}
 span.mh {color:#5555FF;}
 
@@ -496,8 +496,7 @@ background-color: #8EC783;
     background: #338;
 }
 
-.J-J5-Ji { 
-    background: none;
+.J-J5-Ji { /* this is used for the settings button */
     background-color: transparent;
 }
 
