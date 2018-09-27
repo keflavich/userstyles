@@ -173,17 +173,12 @@ FORM, INPUT,
 color: #40FF40;  
 background-color: #000;
 background-image: none;
+font-family: Helvetica; /* NOT roboto, that looks AWFUL */
 }
 .s7hnoe{display:none !important;}
 
 
-
-
-.Bu bAn { font-family: Helvetica; }
-
-
-
-
+.zA>.a4W, .Bu bAn { font-family: Helvetica; }
 
 
 
@@ -439,9 +434,14 @@ span.nU {background-color: transparent;}
 .fw .J-Z {background-color: gray;}
 .ata-asJ {background-color: transparent;}
 
-h2.hP, td.anQ, td.gH, span.hP, span.g3, span.g2 {color: #40FF40;  background-color:
-#000;background-image: none;}
+
+.ha>.hP, h2.hP, td.anQ, td.gH, span.hP, span.g3, span.g2 {
+    color: #40FF40;
+    background-color: #000;
+    background-image: none
+}
 span.mh {color:#5555FF;}
+
 
 textarea, textarea.dK,textarea.nr, textarea.dK nr { background-color:#000; color: #0F0; }
 
