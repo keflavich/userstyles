@@ -289,6 +289,10 @@ color: #0044FF;
 color:#5500FF;
 }
 
+.gt { /* general text? */
+    font-size: 100%;
+}
+
 
 .ip, .amn, .of, .dw, .M9, .ej {background-color:#000000; color:#40FF40;}
 .ip, .fN, .eh, .M9, .dw, .dW, .ej, eJ {background-color:#000000 !important;}
@@ -582,10 +586,40 @@ background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI8AAAAsCAMA
     color: #00DD55;
 }
 
+.bh>.adv>.Bk::after { /* separator fold for long convos */
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+
 .jT, .ad3 { /* chat window */
     color: #DDD;
 }
 
+div.nH.bkK.nn {
+    border: 1px solid #888888;
+}
+
+div.h7.bg.ie.nH {
+    border: 1px dashed #AAAAAA;
+}
+
+
+.g6 {
+    color: #77BB77;
+}
+
+.bi4>.T-KT { /* Stars */
+    background-image: url(https://www.gstatic.com/images/icons/material/system/1x/star_border_white_20dp.png);
+/*:not(.T-KT-Jp):not(.byM)::before*/
+}
+
+.hB, .mL { /* reply button */
+    background-image: url(https://www.gstatic.com/images/icons/material/system/1x/reply_white_20dp.png);
+}
+
+.hA { /* menu */
+    background-image: url(https://www.gstatic.com/images/icons/material/system/1x/more_vert_white_20dp.png);
+}
 
 /* div.Cp needs to have its mousedown removed */
 /* this is just a test */
