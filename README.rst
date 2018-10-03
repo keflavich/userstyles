@@ -4,6 +4,7 @@ Dark themes for Gmail and Feedly
 Feedly dark theme:
 ------------------
 
+(I don't use this any more - it probably doesn't work)
 
 [ http://userstyles.org/styles/87818/feedly-dark-background-modified-to-have-no-icons ] 
 
